@@ -1,0 +1,7 @@
+{
+  "nas_ip": "1.1.1.1",
+  "nas_share": "NasShare",
+  "main_folder": "FolderPath",
+  "username": "Username",
+  "password": "1234"
+}
