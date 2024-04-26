@@ -59,8 +59,8 @@ def process_file(conn, nas_share, main_folder, file, item_path):
         dest_dir = "GIF"
     elif ext in (".jpg", ".jpeg", ".png"):
         dest_dir = "Photos"
-    elif ext in (".WEBP"):
-        dest_dir = "WEBP"
+    elif ext in (".webp", ".heic"):
+        dest_dir = "wirdPhoto"
     else:
         # Skip files with unsupported extensions
         return
